@@ -4,59 +4,55 @@ export const siteConfig = {
 	name: "Enrique | Portfolio",
 	description: "Full Stack Developer and data engqineer with two years of experience.",
 	navItems: [
-		{
-			label: "Home",
-			href: "/",
-		},
-    {
-      label: "Docs",
-      href: "/docs",
-    },
-    {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
+	{
+		label: "Home",
+		hash: "#home",
+	},
     {
       label: "About",
-      href: "/about",
-    }
+	  hash: "#about",
+    },
+    {
+      label: "Projects",
+      hash: "#projects",
+    },
+    {
+      label: "Skills",
+      hash: "#skills",
+    },
+    {
+      label: "Experience",
+      hash: "#experience",
+    },
+	{
+	  label: "Contact",
+	  hash: "#contact",
+	},
 	],
 	navMenuItems: [
 		{
-			label: "Profile",
-			href: "/profile",
+			label: "Home",
+			hash: "#home",
 		},
 		{
-			label: "Dashboard",
-			href: "/dashboard",
+		  label: "About",
+		  hash: "#about",
 		},
 		{
-			label: "Projects",
-			href: "/projects",
+		  label: "Projects",
+		  hash: "#projects",
 		},
 		{
-			label: "Team",
-			href: "/team",
+		  label: "Skills",
+		  hash: "#skills",
 		},
 		{
-			label: "Calendar",
-			href: "/calendar",
+		  label: "Experience",
+		  hash: "#experience",
 		},
 		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
+		  label: "Contact",
+		  hash: "#contact",
 		},
 	],
 	links: {
