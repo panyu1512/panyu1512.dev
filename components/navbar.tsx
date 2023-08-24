@@ -42,14 +42,12 @@ export const Navbar = () => {
 							</Link>
 						</NavbarItem>
 					))}
-					<ThemeSwitch />
 				</ul>
 			</NavbarContent>
-
+			<ThemeSwitch className="hidden sm:block"/>
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
 				<NavbarMenuToggle />
 			</NavbarContent>
-
 			<NavbarMenu>
 				<div className="mx-4 mt-2 flex flex-col gap-2">
 					{siteConfig.navMenuItems.map((item) => (
