@@ -34,7 +34,7 @@ export const Navbar = () => {
 						<NavbarItem key={item.hash}>
 							<Link
 								size="lg"
-								color="foreground"
+								color="secondary"
 								href={item.hash}
 								underline="hover"
 							>
@@ -54,7 +54,7 @@ export const Navbar = () => {
 						<NavbarMenuItem key={item.hash}>
 							<Link
 								size="lg"
-								color="foreground"
+								color="secondary"
 								href={item.hash}
 								underline="hover"
 							>
