@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.typed-cursor{ 
+    color: #9028A3;
+    margin: 0.02rem;
+}
