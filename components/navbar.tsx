@@ -22,7 +22,6 @@ export const Navbar = () => {
 		initial="hidden"
 		animate="visible"
 		variants={navbarVariants}
-		style={{ position: "sticky", top: 0, zIndex: 100 }}
 	  >
 		<NextUINavbar 
 			maxWidth="xl" 
