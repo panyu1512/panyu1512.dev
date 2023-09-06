@@ -9,7 +9,7 @@ export const SectionDivider = () => {
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ delay: 0.125 }}
 	  	>
-			<Divider className="my-12 h-16" orientation="vertical"/>
+			<Divider className="my-2 h-12" orientation="vertical"/>
 		</motion.div>
 	);
 };
