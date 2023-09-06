@@ -11,7 +11,7 @@ export const Intro = () => {
     const el = useRef(null);
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["I am a software engineer", "Living in Mallorca", "With almost two years of experience in the industry", "I am looking for a new challenge!"],
+            strings: ["Living in Mallorca", "With almost two years of experience in the industry", "Experienced also as data engineer", "Looking for a new challenge!"],
             typeSpeed: 60,
             backSpeed: 60,
             cursorChar: "|",
@@ -30,7 +30,10 @@ export const Intro = () => {
                 </div>
                 <div>
                     <h1 className="text-4xl my-4">Hi, my name is Enrique</h1>
-                </div>  
+                </div>
+                <div>
+                    <span className="my-4 text-xl">I am a software engineer</span>
+                </div>
                 <div>
                     <span className="my-4 text-xl" ref={el}></span>
                 </div>
