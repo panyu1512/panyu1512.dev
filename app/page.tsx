@@ -1,17 +1,11 @@
-import NextLink from "next/link";
-import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code"
-import { button as buttonStyles } from "@nextui-org/theme";
-import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
 import { Intro } from "@/components/intro";
+import { SectionDivider } from "@/components/sectionDivider";
 
 export default function Home() {
 	return (
-		<main className="flex flex-col items-center px-4">
+		<main className="flex flex-col text-center items-center space-y-12">
 			<Intro/>
+			<SectionDivider />
 	  	</main>
 	);
 }
