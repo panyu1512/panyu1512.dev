@@ -32,14 +32,14 @@ export const Intro = () => {
 
   return (
     <motion.section
-      initial={{ opacity: 0, scale: 0 }} // Initial animation values
-      animate={{ opacity: 1, scale: 1 }} // Animation when component mounts
-      exit={{ opacity: 0, scale: 0 }} // Animation when component unmounts
+      initial={{ opacity: 0, scale: 0 }}
+      animate={{ opacity: 1, scale: 1 }} 
+      exit={{ opacity: 0, scale: 0 }} 
     >
       <motion.div
         className="flex flex-col text-center items-center justify-center"
-        initial={{ opacity: 0, y: 50 }} // Initial animation values
-        animate={{ opacity: 1, y: 0 }} // Animation when component mounts
+        initial={{ opacity: 0, y: 50 }} 
+        animate={{ opacity: 1, y: 0 }} 
       >
         <div>
           <Avatar
@@ -63,8 +63,8 @@ export const Intro = () => {
       <div className="">
         <motion.div
             className="justify-end space-x-6 space-y-6 my-4"
-            initial={{ opacity: 0, x: 50 }} // Initial animation values
-            animate={{ opacity: 1, x: 0 }} // Animation when component mounts
+            initial={{ opacity: 0, x: 50 }} 
+            animate={{ opacity: 1, x: 0 }} 
         >
             <Button color="secondary" variant="shadow">
             Contact me here <ArrowIcon />
