@@ -74,7 +74,7 @@ export const Intro = () => {
             color="secondary"
             variant="ghost"
             as={Link}
-            href="/next.svg"
+            href="/CV.pdf"
             download
             >
             Download CV
