@@ -34,13 +34,13 @@ export default function Project({
     >
         <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-7">
             <CardHeader className="absolute bg-[#9028A3]/90 z-10 top-0 flex-col items-start">
-                <p className="text-tiny text-black/60 uppercase font-bold">{title}</p>
-                <h4 className="text-black/90 font-medium text-xl">{description}</h4>
+                <p className="text-tiny text-white/70 uppercase font-bold">{title}</p>
+                <h4 className="text-white/90 font-medium text-xl">{description}</h4>
             </CardHeader>
             <Image
                 removeWrapper
                 alt="project image"
-                className="z-0 w-full h-full object-cover border-2 shadow-lg dark:border-default-100"
+                className="z-0 w-full h-full object-cover"
                 src={imageUrl.src}
             />
             <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
@@ -48,7 +48,7 @@ export default function Project({
                     {tags.map((tag, index) => (
                         <span
                             key={index}
-                            className="text-tiny text-white/60 uppercase font-bold"
+                            className="text-tiny text-white/90 uppercase font-bold"
                         >
                             {tag}
                         </span>
