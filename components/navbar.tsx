@@ -41,9 +41,9 @@ export const Navbar = () => {
 							</Link>
 						</NavbarItem>
 					))}
+					<ThemeSwitch className="hidden sm:block"/>
 				</ul>
 			</NavbarContent>
-			<ThemeSwitch className="hidden sm:block"/>
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
 				<NavbarMenuToggle />
 			</NavbarContent>

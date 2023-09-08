@@ -15,7 +15,7 @@ export const About = () => {
       id="about"
     >
         <SectionHeading>About me</SectionHeading>
-        <p className="mb-3 text-xl">
+        <p className="mb-3">
             I am a dedicated <span className="text-[#9028A3] font-bold">software engineer</span> with nearly two years of experience in full-stack web development, 
             where I have honed my skills in <span className="text-[#9028A3] font-bold">JavaScript</span>, <span className="text-[#9028A3] font-bold">Python</span>, <span className="text-[#9028A3] font-bold">React</span>, and <span className="text-[#9028A3] font-bold">Django</span>. 
             In addition to my web development expertise, I excel in <span className="text-[#9028A3] font-bold">data engineering</span>, particularly in <span className="text-[#9028A3] font-bold">Spark</span> and <span className="text-[#9028A3] font-bold">Apache Airflow</span> for efficient data processing and workflow management. 
