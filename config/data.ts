@@ -2,6 +2,7 @@ import galletoAdventuresImg from "../public/galletos_adventures.png";
 import flightScraperImg from "../public/flight_scraper.png";
 import clearJunkImg from "../public/clear_junk.png";
 import portfolioImg from "../public/portfolio.png";
+import { JavascriptIcon, TypescriptIcon, HtmlIcon, CssIcon, ReactIcon, AngularIcon, AstroIcon, NextjsIcon, NodeIcon, PythonIcon, MysqlIcon} from "@/components/icons";
 
 export const projectsData = [
     {
@@ -36,5 +37,53 @@ export const projectsData = [
         imageUrl: portfolioImg,
         githubUrl: "https://github.com/panyu1512/Portfolio",
     },
+] as const;
+
+export const skillsData = [
+    {
+        icon: JavascriptIcon,
+        title: "Javascript",
+    },
+    {
+        icon: TypescriptIcon,
+        title: "Typescript",
+    }, 
+    {
+        icon: HtmlIcon,
+        title: "HTML",
+    },
+    {
+        icon: CssIcon,
+        title: "CSS",
+    },
+    {
+        icon: ReactIcon,
+        title: "React",
+    },
+    {
+        icon: AngularIcon,
+        title: "Angular",
+    },
+    {
+        icon: AstroIcon,
+        title: "Astro",
+    },
+    {
+        icon: NextjsIcon,
+        title: "Next.js",
+    },
+    {
+        icon: NodeIcon,
+        title: "Node.js",
+    },
+    {
+        icon: PythonIcon,
+        title: "Python",
+    },
+    {
+        icon: MysqlIcon,
+        title: "MySQL",
+    },
+
 ] as const;
   
