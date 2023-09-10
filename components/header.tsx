@@ -1,4 +1,5 @@
 'use client';
+import React from "react";
 import {
 	Navbar,
 	NavbarContent,
@@ -13,6 +14,7 @@ import { ThemeSwitch } from "@/components/theme-switch";
 import { motion } from "framer-motion";
 
 export const Header = () => {
+	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 	const navbarVariants = {
 		hidden: { opacity: 0, y: -20 },
 		visible: { opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.2 } },
@@ -27,6 +29,8 @@ export const Header = () => {
 		<Navbar 
 			maxWidth="xl" 
 			className="fixed"
+			isMenuOpen={isMenuOpen}
+			onMenuOpenChange={setIsMenuOpen}
 		>
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="center" >
 				<ul className="hidden lg:flex gap-8 justify-start ml-2">
@@ -57,6 +61,7 @@ export const Header = () => {
 								color="secondary"
 								href={item.hash}
 								underline="hover"
+								onClick={() => setIsMenuOpen(false)}
 							>
 								{item.label}
 							</Link>
