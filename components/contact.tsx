@@ -40,7 +40,7 @@ export default function Contact() {
   return (
     <motion.section
       id="contact"
-      className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center space-y-4"
+      className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
       initial={{
         opacity: 0,
       }}
@@ -55,7 +55,8 @@ export default function Contact() {
       }}
     >
         <SectionHeading>Contact me</SectionHeading>
-        <form 
+        <form
+          className="space-y-4"
           action={async (formData) => {
             const { data, error } = await sendEmail(formData);
             if (error) {
