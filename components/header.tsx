@@ -22,6 +22,7 @@ export const Header = () => {
 		initial="hidden"
 		animate="visible"
 		variants={navbarVariants}
+		id="home"
 	  >
 		<Navbar 
 			maxWidth="xl" 
