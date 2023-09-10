@@ -39,6 +39,7 @@
     "react": "18.2.0",
     "react-canvas-confetti": "^1.4.0",
     "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
     "react-vertical-timeline-component": "^3.6.0",
     "resend": "^1.0.0",
     "tailwind-variants": "^0.1.13",
