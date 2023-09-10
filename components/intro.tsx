@@ -67,7 +67,7 @@ export const Intro = () => {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
         >
-          <Button color="secondary" variant="shadow">
+          <Button color="secondary" variant="shadow" as={Link} href="#contact">
             Contact me here <ArrowIcon />
           </Button>
           <Button
