@@ -5,6 +5,7 @@ import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Header } from "@/components/header";
 import { Link } from "@nextui-org/link";
+import { Toaster } from 'react-hot-toast';
 import clsx from "clsx";
 
 export const metadata: Metadata = {
@@ -55,6 +56,7 @@ export default function RootLayout({
 								<p className="text-primary">Calvo</p>
 							</Link>
 						</footer>
+						<Toaster position="top-right" />
 					</div>
 				</Providers>
 			</body>
