@@ -16,7 +16,7 @@ export const Intro = () => {
     const typed = new Typed(el.current, {
       strings: [
         "Living in Mallorca",
-        "With almost two years of experience in the industry",
+        "With more than two years of experience",
         "Experienced also as a data engineer",
         "Looking for a new challenge!",
       ],
