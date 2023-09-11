@@ -23,7 +23,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "POSSIBLE, Vigo, Spain",
     description:
-      "I have had the opportunity to work with Django-React and Django-Angular stacks in several projects in the company, leveraging my skills in full-stack web development",
+      "I have had the opportunity to work with Django-React and Django-Angular stacks in several projects in the company, leveraging my skills in full-stack web development.",
     date: "2021 - 2023",
   },
   {
@@ -34,7 +34,7 @@ export const experiencesData = [
     date: "2021 - 2021",
   },
   {
-    title: "Degree in Software Engineering. ",
+    title: "Degree in Software Engineering.",
     location: "UOC, Barcelona, Spain",
     description:
       "I graduated after 5 years. I immediately found a job as a full stack developer.",
@@ -68,7 +68,7 @@ export const projectsData = [
   {
     title: "Portofolio",
     description: "Portfolio to show my software engineering skills",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    tags: ["React", "TypeScript", "Next.js"],
     imageUrl: portfolioImg,
     githubUrl: "https://github.com/panyu1512/Portfolio",
   },
