@@ -66,6 +66,7 @@ export default function Contact() {
             toast.success("Email sent successfully");
             setMessage("");
             setEmail("");
+            setLabel("Email");
           }}
         >
           <Input
