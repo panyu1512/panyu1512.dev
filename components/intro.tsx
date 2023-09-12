@@ -18,7 +18,7 @@ export const Intro = () => {
         "Living in Mallorca",
         "With more than two years of experience",
         "Experienced also as a data engineer",
-        "Looking for a new challenge!",
+        "Currently working at Possible Inc",
       ],
       typeSpeed: 60,
       backSpeed: 60,
