@@ -19,7 +19,7 @@ export const About = () => {
         <p className="mb-3">
           I am a dedicated{" "}
           <span className="text-[#9028A3] font-bold">software engineer</span>{" "}
-          with more than two years of experience in full-stack web development,
+          with more than three years of experience in full-stack web development,
           where I have honed my skills in{" "}
           <span className="text-[#9028A3] font-bold">JavaScript</span>,{" "}
           <span className="text-[#9028A3] font-bold">Python</span>,{" "}
