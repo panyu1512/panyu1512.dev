@@ -48,7 +48,7 @@ export const Intro = () => {
               isBordered
               color="secondary"
               size="lg"
-              src="https://media.licdn.com/dms/image/D4D03AQH2JFOaJ3rGfg/profile-displayphoto-shrink_200_200/0/1665775544515?e=1698278400&v=beta&t=J_-YROKiEXPlwlPGvHpHBNiCtNlnL7vZ2s90sNKrQoE"
+              src="https://media.licdn.com/dms/image/D4D03AQH2JFOaJ3rGfg/profile-displayphoto-shrink_800_800/0/1665775544515?e=1704931200&v=beta&t=UIn040qCb8KEz1LH1YSm2sN3yQOIx5XU3tMlwCyR4ps"
             />
           </div>
           <div>
