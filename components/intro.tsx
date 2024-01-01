@@ -67,10 +67,18 @@ export const Intro = () => {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
         >
-          <Button color="secondary" variant="shadow" as={Link} href="#contact">
-            Contact me here <ArrowIcon />
+          <Button
+            className="transition hover:scale-110"
+            color="secondary" 
+            variant="shadow" 
+            as={Link} 
+            href="#contact"
+          >
+            Contact me here 
+            <ArrowIcon />
           </Button>
           <Button
+            className="transition hover:scale-110"
             onPress={() => setIsVisible(true)}
             color="secondary"
             variant="ghost"
@@ -82,6 +90,7 @@ export const Intro = () => {
           </Button>
           {isVisible && <Confetti />}
           <Button
+            className="transition hover:scale-110"
             color="secondary"
             variant="ghost"
             as={Link}
