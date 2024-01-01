@@ -1,4 +1,3 @@
-import React from "react";
 import galletoAdventuresImg from "../public/galletos_adventures.png";
 import flightScraperImg from "../public/flight_scraper.png";
 import clearJunkImg from "../public/clear_junk.png";

@@ -4,10 +4,10 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Header } from "@/components/header";
-import { Link } from "@nextui-org/link";
 import { Toaster } from 'react-hot-toast';
 import clsx from "clsx";
 import Footer from "@/components/footer";
+import Favicon from "@/public/favicon.svg";
 
 export const metadata: Metadata = {
 	title: {
@@ -19,11 +19,7 @@ export const metadata: Metadata = {
 		{ media: "(prefers-color-scheme: light)", color: "white" },
 		{ media: "(prefers-color-scheme: dark)", color: "black" },
 	],
-	icons: {
-		icon: "/favicon.ico",
-		shortcut: "/favicon-16x16.png",
-		apple: "/apple-touch-icon.png",
-	},
+	icons: [{ rel: 'icon', url: Favicon.src }],
 };
 
 export default function RootLayout({
