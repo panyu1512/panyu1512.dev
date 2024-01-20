@@ -27,7 +27,7 @@ export const Skills = () => {
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
-            className="borderBlack rounded-xl px-5 py-3 dark:text-white/80 bg-[#9028A3]/70"
+            className="rounded-xl px-5 py-3 dark:text-white/80"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
@@ -37,7 +37,17 @@ export const Skills = () => {
             }}
             custom={index}
           >
-            <div className="duration-500 hover:scale-125">
+            <div
+              className="border dark:border-[#9028A3] border-[#9028A3] rounded-full
+              bg-black/60
+              flex justify-center items-center gap-x-2
+              py-1 px-2 md:py-2 md:px-4
+              text-xs md:text-base
+              text-black/70 dark:text-white
+              dark:hover:bg-white/60 dark:hover:text-black
+              transition
+              hover:scale-110 hover:bg-black/80"
+            >
               <skill.icon />
             </div>
           </motion.li>
