@@ -1,7 +1,7 @@
-import galletoAdventuresImg from "../public/galletos_adventures.png";
-import flightScraperImg from "../public/flight_scraper.png";
-import clearJunkImg from "../public/clear_junk.png";
-import portfolioImg from "../public/portfolio.png";
+import galletoAdventuresImg from "../public/galletos_adventures.webp";
+import flightScraperImg from "../public/flight_scraper.webp";
+import clearJunkImg from "../public/clear_junk.webp";
+import portfolioImg from "../public/portfolio.webp";
 import {
   JavascriptIcon,
   TypescriptIcon,

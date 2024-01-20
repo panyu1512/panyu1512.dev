@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import { Button, Link } from "@nextui-org/react";
 import { GithubIcon, ArrowIcon } from "@/components/icons";
 import Confetti from "@/components/confetti";
+import avatar from "../public/avatar.webp";
 
 export const Intro = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -48,7 +49,7 @@ export const Intro = () => {
               isBordered
               color="secondary"
               size="lg"
-              src="https://media.licdn.com/dms/image/D4D03AQH2JFOaJ3rGfg/profile-displayphoto-shrink_800_800/0/1665775544515?e=1704931200&v=beta&t=UIn040qCb8KEz1LH1YSm2sN3yQOIx5XU3tMlwCyR4ps"
+              src={avatar.src}
             />
           </div>
           <div>
