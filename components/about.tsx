@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import SectionHeading from "@/components/section-heading";
 import { motion } from "framer-motion";
 import { Image } from "@nextui-org/react";
 import AboutImage from "../public/aboutImage.webp";
@@ -10,46 +9,35 @@ export const About = () => {
   return (
     <motion.section
       //   ref={ref}
-      className="mb-28 max-w-[64rem] text-pretty leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[54rem] text-pretty leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
       <section className="flex flex-col md:flex-row gap-8 justify-center items-center">
         <div>
-          <p className="mb-3">
-            I am a dedicated{" "}
-            <span className="text-[#9028A3] font-bold">software engineer</span>{" "}
-            with more than three years of experience in full-stack web development,
-            where I have honed my skills in{" "}
-            <span className="text-[#9028A3] font-bold">JavaScript</span>,{" "}
-            <span className="text-[#9028A3] font-bold">Python</span>,{" "}
-            <span className="text-[#9028A3] font-bold">React</span>,{" "}
-            <span className="text-[#9028A3] font-bold">Angular</span> and{" "}
-            <span className="text-[#9028A3] font-bold">Django</span>.
+          <p className="mb-3 text-lg">
+            As a <span className="text-[#9028A3]">Software Engineer</span>, I bring a
+            wealth of experience in both{" "}
+            <span className="text-[#9028A3]">Full Stack</span> and{" "}
+            <span className="text-[#9028A3]">Data Engineering</span> to the table. I
+            thrive on challenges and have a deep-seated passion for{" "}
+            <span className="text-[#9028A3]">continuous learning</span>, adapting to
+            the <span className="text-[#9028A3]">ever-evolving tech landscape</span>.
+            Whether crafting
+            <span className="text-[#9028A3]"> intuitive user interfaces</span> or
+            <span className="text-[#9028A3]">architecting robust data solutions</span>, I find immense fulfillment in
+            transforming ideas into{" "}
+            <span className="text-[#9028A3]">impactful realities</span>. Eager to
+            explore new horizons and contribute to
+            <span className="text-[#9028A3]"> innovative projects</span>, I am
+            committed to driving success through a
+            <span className="text-[#9028A3]"> dynamic and adaptable approach</span>{" "}
+            to software development.
           </p>
-          <p className="mb-3">
-            In addition to my web development expertise, I excel in{" "}
-            <span className="text-[#9028A3] font-bold">data engineering</span>,
-            particularly in{" "}
-            <span className="text-[#9028A3] font-bold">Spark</span> and{" "}
-            <span className="text-[#9028A3] font-bold">Apache Airflow</span> for
-            efficient data processing and workflow management.
-          </p>
-          <p className="mb-3">
-            I thrive in collaborative team environments and am committed to{" "}
-            <span className="text-[#9028A3] font-bold">continuous learning</span>,
-            always staying updated with the latest technologies to contribute
-            effectively as a{" "}
-            <span className="text-[#9028A3] font-bold">
-              software and data engineer
-            </span>
-            .
-          </p>          
         </div>
-        <Image  
+        <Image
           removeWrapper
           alt="About image"
           width={265}

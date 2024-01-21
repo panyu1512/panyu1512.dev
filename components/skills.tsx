@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { skillsData } from "@/config/data";
-import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 
 export const Skills = () => {
@@ -23,7 +22,6 @@ export const Skills = () => {
       id="skills"
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
-      <SectionHeading>My skills</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
@@ -38,15 +36,12 @@ export const Skills = () => {
             custom={index}
           >
             <div
-              className="border dark:border-[#9028A3] border-[#9028A3] rounded-full
-              bg-black/60
+              className="border border-[#9028A3] rounded-full
+              bg-[#9028A3]/60
               flex justify-center items-center gap-x-2
-              py-2 px-6 md:py-2 md:px-8
-              text-xs md:text-base
-              text-black/70 dark:text-white
-              dark:hover:bg-white/60 dark:hover:text-black
+              py-2 px-6 md:py-2 md:px-8            
               transition
-              hover:scale-110 hover:bg-black/80"
+              hover:scale-110 hover:bg-[#9028A3]/80"
             >
               <skill.icon />
             </div>

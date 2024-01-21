@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import {Input} from "@nextui-org/react";
 import {Textarea} from "@nextui-org/react";
@@ -54,7 +53,6 @@ export default function Contact() {
         once: true,
       }}
     >
-        <SectionHeading>Contact me</SectionHeading>
         <form
           className="space-y-4"
           action={async (formData) => {

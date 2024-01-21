@@ -14,16 +14,18 @@ import {
   NodeIcon,
   PythonIcon,
   MysqlIcon,
+  AwsIcon,
+  SparkIcon,
 } from "@/components/icons";
 
 
 export const experiencesData = [
   {
-    title: "Full-Stack Developer",
+    title: "Full-Stack / Data engineer",
     location: "POSSIBLE, Vigo, Spain",
     description:
       "I have had the opportunity to work with Django-React and Django-Angular stacks in several projects in the company, leveraging my skills in full-stack web development.",
-    date: "2021 - 2023",
+    date: "2021 - 2024",
   },
   {
     title: "Data science engineer",
@@ -113,6 +115,14 @@ export const skillsData = [
   {
     icon: PythonIcon,
     title: "Python",
+  },
+  {
+    icon: SparkIcon,
+    title: "Spark",
+  },
+  {
+    icon: AwsIcon,
+    title: "AWS",
   },
   {
     icon: MysqlIcon,
