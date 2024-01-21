@@ -43,21 +43,13 @@ export default function Project({
                 className="z-0 w-full h-full object-cover"
                 src={imageUrl.src}
             />
-            <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-                <div className="flex flex-grow gap-2 items-center">
+            <CardFooter className="absolute bg-white/60 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
+                <div className="flex flex-grow gap-4 items-center">
                     {tags.map((tag, index) => (
-                        <span
-                            key={index}
-                            className="text-tiny text-white/90 uppercase font-bold border dark:border-[#9028A3] border-[#9028A3] rounded-full
-                            bg-black
-                            flex justify-center items-center gap-x-2
-                            py-2 px-6 md:py-2 md:px-8"
-                        >
-                            {tag}
-                        </span>
+                        <tag.icon key={index} width={35} height={35}/>
                     ))}
                 </div>
-                <Button radius="full" variant="ghost" size="sm" color="secondary" as={Link} href={githubUrl} target="_blank"><GithubIcon/></Button>      
+                <Button className="bg-[#9028A3]/60 hover:bg-[#9028A3]/60" radius="full" size="sm" as={Link} href={githubUrl} target="_blank"><GithubIcon/></Button>      
             </CardFooter>
         </Card>
     </motion.div>
