@@ -18,22 +18,22 @@ export const About = () => {
       <section className="flex flex-col md:flex-row gap-8 justify-center items-center">
         <div>
           <p className="mb-3 text-lg">
-            As a <span className="text-[#9028A3]">Software Engineer</span>, I bring a
+            As a <span className="text-[#9028A3] font-bold">Software Engineer</span>, I bring a
             wealth of experience in both{" "}
-            <span className="text-[#9028A3]">Full Stack</span> and{" "}
-            <span className="text-[#9028A3]">Data Engineering</span> to the table. I
+            <span className="text-[#9028A3] font-bold">Full Stack</span> and{" "}
+            <span className="text-[#9028A3] font-bold">Data Engineering</span> to the table. I
             thrive on challenges and have a deep-seated passion for{" "}
-            <span className="text-[#9028A3]">continuous learning</span>, adapting to
-            the <span className="text-[#9028A3]">ever-evolving tech landscape</span>.
+            <span className="text-[#9028A3] font-bold">continuous learning</span>, adapting to
+            the <span className="text-[#9028A3] font-bold">ever-evolving tech landscape</span>.
             Whether crafting
-            <span className="text-[#9028A3]"> intuitive user interfaces</span> or
-            <span className="text-[#9028A3]">architecting robust data solutions</span>, I find immense fulfillment in
+            <span className="text-[#9028A3] font-bold"> intuitive user interfaces</span> or
+            <span className="text-[#9028A3] font-bold">architecting robust data solutions</span>, I find immense fulfillment in
             transforming ideas into{" "}
-            <span className="text-[#9028A3]">impactful realities</span>. Eager to
+            <span className="text-[#9028A3] font-bold">impactful realities</span>. Eager to
             explore new horizons and contribute to
-            <span className="text-[#9028A3]"> innovative projects</span>, I am
+            <span className="text-[#9028A3] font-bold"> innovative projects</span>, I am
             committed to driving success through a
-            <span className="text-[#9028A3]"> dynamic and adaptable approach</span>{" "}
+            <span className="text-[#9028A3] font-bold"> dynamic and adaptable approach</span>{" "}
             to software development.
           </p>
         </div>

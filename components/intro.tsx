@@ -69,9 +69,7 @@ export const Intro = () => {
           animate={{ opacity: 1, x: 0 }}
         >
           <Button
-            className="transition hover:scale-110"
-            color="secondary" 
-            variant="shadow" 
+            className="bg-[#9028A3]/80 hover:bg-[#9028A3] transition hover:scale-110 border border-[#9028A3] dark:text-black font-bold"
             as={Link} 
             href="#contact"
           >
@@ -79,10 +77,8 @@ export const Intro = () => {
             <ArrowIcon />
           </Button>
           <Button
-            className="transition hover:scale-110"
+            className="bg-[#9028A3]/80 hover:bg-[#9028A3] transition hover:scale-110 border border-[#9028A3] dark:text-black font-bold"
             onPress={() => setIsVisible(true)}
-            color="secondary"
-            variant="ghost"
             as={Link}
             href="/CV.pdf"
             download
@@ -91,9 +87,7 @@ export const Intro = () => {
           </Button>
           {isVisible && <Confetti />}
           <Button
-            className="transition hover:scale-110"
-            color="secondary"
-            variant="ghost"
+            className="transition hover:scale-110 hover:bg-[#9028A3] border border-[#9028A3] dark:text-black font-bold dark:bg-white/80 dark:hover:bg-[#9028A3]"
             as={Link}
             href="https://github.com/panyu1512"
             target="_blank"
