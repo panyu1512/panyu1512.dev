@@ -20,7 +20,7 @@ export const Skills = () => {
   return (
     <section
       id="skills"
-      className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
+      className="mb-28 lg:w-[700px] md:w-full sm:w-full scroll-mt-28 text-center sm:mb-40"
     >
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
