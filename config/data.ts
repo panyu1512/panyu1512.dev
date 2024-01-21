@@ -17,16 +17,15 @@ import {
   AwsIcon,
   SparkIcon,
   UnityIcon,
-  CIcon
+  CIcon,
 } from "@/components/icons";
-
 
 export const experiencesData = [
   {
     title: "Full-Stack / Data engineer",
     location: "POSSIBLE, Vigo, Spain",
     description:
-      "I have had the opportunity to work with Django-React and Django-Angular stacks in several projects in the company, leveraging my skills in full-stack web development.",
+      "I played a key role in the creation of dynamic websites and the development of Restful APIs. Utilizing robust testing strategies, I ensured the reliability and stability of applications. Additionally, I led Extract, Transform, Load (ETL) processes using Apache Airflow, optimizing data workflows for efficient and scalable data management. Furthermore, I contributed to the development and maintenance of an internal project library, serving as a centralized resource for reusable components and modules.",
     date: "2021 - 2024",
   },
   {
@@ -50,21 +49,21 @@ export const projectsData = [
     title: "FlightScraper",
     description:
       "Flight scrapper to find cheap flights to Oporto from Mallorca!",
-    tags: [{icon:JavascriptIcon}],
+    tags: [{ icon: JavascriptIcon }],
     imageUrl: flightScraperImg,
     githubUrl: "https://github.com/panyu1512/FlightScrapper",
   },
   {
     title: "GalletosAdventures-Platform2DGame",
     description: "Repository for my final degree project. Plaform 2D Game.",
-    tags: [{icon: CIcon}, {icon: UnityIcon}],
+    tags: [{ icon: CIcon }, { icon: UnityIcon }],
     imageUrl: galletoAdventuresImg,
     githubUrl: "https://github.com/panyu1512/GalletosAdventures-Platform2DGame",
   },
   {
     title: "ClearJunk",
     description: "Python script for cleaning up directories",
-    tags: [{icon:PythonIcon}],
+    tags: [{ icon: PythonIcon }],
     imageUrl: clearJunkImg,
     githubUrl: "https://github.com/panyu1512/ClearJunk",
   },
