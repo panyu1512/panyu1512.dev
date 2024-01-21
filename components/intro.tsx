@@ -64,7 +64,7 @@ export const Intro = () => {
         </motion.div>
 
         <motion.div
-          className="justify-end space-x-6 space-y-6 my-4"
+          className="space-x-6 space-y-6 my-4"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
         >

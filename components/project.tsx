@@ -49,7 +49,7 @@ export default function Project({
                         <tag.icon key={index} width={35} height={35}/>
                     ))}
                 </div>
-                <Button className="bg-[#9028A3]/60 hover:bg-[#9028A3]/60" radius="full" size="sm" as={Link} href={githubUrl} target="_blank"><GithubIcon/></Button>      
+                <Button className="bg-[#9028A3]/60 hover:bg-[#9028A3]" radius="full" size="sm" as={Link} href={githubUrl} target="_blank"><GithubIcon/></Button>      
             </CardFooter>
         </Card>
     </motion.div>
