@@ -6,9 +6,9 @@ export default function SubmitBtn() {
   const { pending } = useFormStatus();
   return (
     <Button
+      className="bg-[#9028A3]/60 hover:bg-[#9028A3]"
       type="submit"
       isLoading={pending}
-      color="secondary"
       spinner={
         <svg
           className="animate-spin h-5 w-5 text-current"
