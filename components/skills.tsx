@@ -41,7 +41,7 @@ export const Skills = () => {
               className="border dark:border-[#9028A3] border-[#9028A3] rounded-full
               bg-black/60
               flex justify-center items-center gap-x-2
-              py-1 px-2 md:py-2 md:px-4
+              py-2 px-6 md:py-2 md:px-8
               text-xs md:text-base
               text-black/70 dark:text-white
               dark:hover:bg-white/60 dark:hover:text-black
