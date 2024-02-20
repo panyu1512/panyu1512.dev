@@ -25,14 +25,14 @@ export const experiencesData = [
     title: "Full-Stack / Data engineer",
     location: "POSSIBLE, Vigo, Spain",
     description:
-      "I played a key role in the creation of dynamic websites and the development of Restful APIs. Utilizing robust testing strategies, I ensured the reliability and stability of applications. Additionally, I led Extract, Transform, Load (ETL) processes using Apache Airflow, optimizing data workflows for efficient and scalable data management. Furthermore, I contributed to the development and maintenance of an internal project library, serving as a centralized resource for reusable components and modules.",
+      "Led the development of a sentiment analysis web app for digital newspapers, emphasizing UI design, ETL processes, and RESTful API integration. Managed the migration of the European Patent Office datalake to AWS, refactoring SAS code to Pyspark. Implemented Airflow-based ETL operations for data normalization and cleaning, and contributed to the development of an internal project library for reusable components.",
     date: "2021 - 2024",
   },
   {
     title: "Data science engineer",
     location: "Saturdays AI, Madrid, Spain",
     description:
-      "I worked as a data engineer. I expanded my programming skills in Python and my knowledge of Machine Learning and Deep Learning techniques.",
+      "Expanded Python programming skills and deepened knowledge of Machine Learning and Deep Learning techniques through projects like a trash detector.",
     date: "2021 - 2021",
   },
   {
