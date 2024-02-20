@@ -27,7 +27,7 @@ export const About = () => {
             the <span className="text-[#9028A3] font-bold">ever-evolving tech landscape</span>.
             Whether crafting
             <span className="text-[#9028A3] font-bold"> intuitive user interfaces</span> or
-            <span className="text-[#9028A3] font-bold">architecting robust data solutions</span>, I find immense fulfillment in
+            <span className="text-[#9028A3] font-bold"> architecting robust data solutions</span>, I find immense fulfillment in
             transforming ideas into{" "}
             <span className="text-[#9028A3] font-bold">impactful realities</span>. Eager to
             explore new horizons and contribute to
