@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Resend } from "resend";
-import ContactFormEmail from "@/config/contact-form-email";
+import ContactFormEmail from "@/components/contact-form-email";
 import { validateString, getErrorMessage  } from "@/config/utils";
 
 
