@@ -22,7 +22,7 @@ export const Skills = () => {
       id="skills"
       className="mb-28 lg:w-[700px] md:w-full sm:w-full scroll-mt-28 text-center sm:mb-40"
     >
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex flex-wrap justify-center lg:gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
             className="rounded-xl px-2 py-2 dark:text-white/80"
