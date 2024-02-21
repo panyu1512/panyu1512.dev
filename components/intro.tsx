@@ -64,7 +64,7 @@ export const Intro = () => {
         </motion.div>
 
         <motion.div
-          className="space-x-6 space-y-6 my-4"
+          className="grid grid-cols-3 justify-center items-center space-x-4 mt-16"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
         >
@@ -73,7 +73,7 @@ export const Intro = () => {
             as={Link} 
             href="#contact"
           >
-            Contact me here 
+            Contact 
             <ArrowIcon />
           </Button>
           <Button
