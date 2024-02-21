@@ -87,7 +87,7 @@ export const Intro = () => {
           </Button>
           {isVisible && <Confetti />}
           <Button
-            className="transition hover:scale-110 hover:bg-[#9028A3] border border-[#9028A3] dark:text-black font-bold dark:bg-white/80 dark:hover:bg-[#9028A3]"
+            className="bg-[#9028A3]/80 hover:bg-[#9028A3] transition hover:scale-110 border border-[#9028A3] dark:text-black font-bold"
             as={Link}
             href="https://github.com/panyu1512"
             target="_blank"

@@ -32,7 +32,7 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-        <Card isFooterBlurred className="lg:w-[700px] md:w-full sm:w-full h-[300px] hover:scale-110">
+        <Card isFooterBlurred className="lg:w-[500px] md:w-full sm:w-full h-[300px] hover:scale-110">
             <CardHeader className="absolute bg-[#9028A3]/70 z-10 top-0 flex-col items-start">
                 <p className="text-tiny text-white/70 uppercase font-bold">{title}</p>
                 <h4 className="text-white/90 font-medium text-xl">{description}</h4>
